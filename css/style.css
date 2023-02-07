@@ -94,12 +94,18 @@ a:active {
     padding: 50px;
 }
 .zona-dl{
+    background-image: url("../img/stars.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 50px;
 }
 .navbar{
   padding: 20px;
     color: white;
     text-align: center;
+}
+.bg-star{
+  
 }
 /* bottoni/input */
 .bot-download {
@@ -148,6 +154,9 @@ h3{
     padding: 20%;
     line-height: 1.8;
 }
+h2{
+ color: var(--botton-purple);
+}
 /* LISTE */
 ul {
     color: var(--botton-purple);
@@ -163,6 +172,4 @@ li {
 .flag{
     width: 20px;
 }
-h2{
- color: var(--botton-purple);
-}
+
