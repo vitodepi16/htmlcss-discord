@@ -10,7 +10,7 @@
 :root {
     /* Color styles */
     --bg-heade: #255EE9;
-    --bg-gray: #efefef;
+    --bg-gray: #e7e5e5;
     --bg-footer: #23272A;
     --title: #000000;
     --botton-purple: #7289DA;
@@ -106,6 +106,12 @@ a:active {
     text-align: center;
 }
 
+.wave{
+    height: 100px;
+    background-image: url("../img/wave.svg");
+    filter:opacity(0.1);
+    padding: 20px;
+}
 /* bottoni/input */
 .bot-download {
     background-color: white;
