@@ -188,13 +188,18 @@ li {
 }
 
 /* class per  Pages  */
-
+.flex-login{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 .debug{ 
     border: 1px solid black;
 } 
 .bg-pages{
     background-image: url("../img/bg-login.svg");
-    width: 100%;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -204,4 +209,18 @@ li {
     flex-direction: column ;
     justify-content: center;
     align-items: center;
+    background-color: var(--bg-footer);
+    color: white;
+
+}
+.cont-width{
+    width: 100vw;
+    height: 100vh;
+}
+.qr-code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-footer);
+    color: white;
 }
