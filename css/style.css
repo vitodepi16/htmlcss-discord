@@ -187,3 +187,18 @@ li {
     width: 20px;
 }
 
+/* class per  Pages  */
+
+.debug{
+    border: 1px solid black;
+}
+.bg-accedi{
+    background-image: url("../img/bg-login.svg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    
+}
