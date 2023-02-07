@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
     font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
 }
 
 :root {
@@ -104,8 +105,8 @@ a:active {
     color: white;
     text-align: center;
 }
-.bg-star{
-  
+i{
+
 }
 /* bottoni/input */
 .bot-download {
