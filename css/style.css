@@ -150,7 +150,7 @@ a:active {
     color: var(--title);
 }
 /* text */
-.sub-title {
+.sub-title{
     padding-top: 2.2rem;
     font-size: 1em;
     padding-bottom: 2.2rem;
@@ -189,10 +189,10 @@ li {
 
 /* class per  Pages  */
 
-.debug{
+.debug{ 
     border: 1px solid black;
-}
-.bg-accedi{
+} 
+.bg-pages{
     background-image: url("../img/bg-login.svg");
     width: 100%;
     background-repeat: no-repeat;
@@ -200,5 +200,8 @@ li {
 }
 
 .login{
-    
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
 }
